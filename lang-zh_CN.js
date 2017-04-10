@@ -402,12 +402,18 @@ SnapTranslator.dict.zh_CN = {
     // development mode: morph context menu
     'user features...':
         '用户菜单…',
+    'user features':
+        '用户菜单',
     'color...':
         '颜色…',
+    '\ncolor:':
+        '\n颜色：',
     'choose another color \nfor this morph':
         '指定morph的颜色',
     'transparency...':
         '透明度…',
+	'\nalpha\nvalue:':
+        '\nalpha值：',
     'set this morph\'s\nalpha value':
         '设置morph的alpha通道值',
     'resize...':
@@ -427,7 +433,7 @@ SnapTranslator.dict.zh_CN = {
     'show a handle\nwhich can be dragged\nto move this morph':
         '显示一个把手，\n拖动可移动这个morph',
     'inspect...':
-        '查看…',
+        '检查…',
     'open a window\non all properties':
         '打开查看器窗口\n显示所有属性',
     'open a new window\nwith a picture of this morph': // pick up
@@ -446,6 +452,8 @@ SnapTranslator.dict.zh_CN = {
         '显示World菜单',
     'font size...':
         '字体大小…',
+    '\nfont\nsize:':
+        '字体大小：',
     'set this String\'s\nfont point size':
         '设置字符串的字体点数',
     'align left':
@@ -1227,6 +1235,12 @@ SnapTranslator.dict.zh_CN = {
         '关：不使用键盘编辑',
     'check to enable\nkeyboard editing support':
         '开：使用键盘编辑',
+    'Nested auto-wrapping':
+        '内层积木自动换行',
+    'uncheck to confine auto-wrapping\nto top-level block stacks':
+        '关：仅限最外层积木自动换行',
+    'check to enable auto-wrapping\ninside nested block stacks':
+        '开：允许内层积木自动换行',
     'Table support':
         '使用表格功能',
     'uncheck to disable\nmulti-column list views':
@@ -1239,6 +1253,12 @@ SnapTranslator.dict.zh_CN = {
         '关：浅色表格线',
     'check for higher contrast\ntable views':
         '开：深色表格线',
+    'Visible stepping':
+        '单步运行加亮显示',
+    'uncheck to turn off\nvisible stepping':
+        '关：单步运行不加亮显示',
+    'check to turn on\n visible stepping (slow)':
+        '开：单步运行以加亮方式显示（较慢）',
     'Thread safe scripts':
         '线程安全的脚本',
     'uncheck to allow\nscript reentrance':
@@ -1478,6 +1498,10 @@ SnapTranslator.dict.zh_CN = {
         '收回积木',
     'undo the last\nblock drop\nin this pane':
         '收回刚刚放下的积木',
+    'redrop':
+        '重新放置积木',
+    'redo the last undone\nblock drop\nin this pane':
+        '重新放置刚刚回收的积木',
     'scripts pic...':
         '脚本图片…',
     'open a new window\nwith a picture of all scripts':
@@ -1666,6 +1690,15 @@ SnapTranslator.dict.zh_CN = {
     'for this sprite only':
         '给这个角色用',
 
+    // variables refactoring
+    'rename only\nthis reporter':
+        '仅修改此积木',
+    'rename all...':
+        '全部改名……',
+    'rename all blocks that\naccess this variable':
+        '给所有访问此变量的积木改名',
+
+
     // block dialog
     'Change block':
         '修改积木',
@@ -1818,6 +1851,18 @@ SnapTranslator.dict.zh_CN = {
         '空白',
 
     // graphical effects
+    'color':
+        '色彩',
+    'fisheye':
+        '鱼眼',
+    'whirl':
+        '漩涡',
+    'pixelate':
+        '像素化',
+    'mosaic':
+        '马赛克',
+    'saturation':
+        '饱和',
     'brightness':
         '亮度',
     'ghost':
